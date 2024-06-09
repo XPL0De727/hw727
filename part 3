@@ -1,0 +1,16 @@
+// Change CSS of an element
+document.getElementById("idName").style.property = 'value';
+
+// Run a function on button click
+<button onclick="functionName()">buttonName</button>
+
+// Create a variable
+var nameOfVariable = value;
+
+// Use an if-statement
+if (condition) {
+  // do this if the condition is true
+}
+
+// Set text of an HTML element
+document.getElementById("idName").innerHTML = 'newTextInElt';
