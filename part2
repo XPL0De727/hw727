@@ -1,0 +1,17 @@
+// script.js
+function countdown() {
+  var count = 10;
+  var countdownText = document.getElementById("countdown-text");
+  
+  function countDown() {
+    if (count > 0) {
+      count--;
+      countdownText.innerHTML = count;
+      setTimeout(countDown, 1000);
+    } else {
+      countdownText.innerHTML = "Countdown complete!";
+    }
+  }
+  
+  countDown();
+}
